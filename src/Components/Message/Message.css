@@ -1,0 +1,31 @@
+.message {
+    max-width: 60%;
+    padding: 8px 12px;
+    border-radius: 7.5px;
+    margin-bottom: 10px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.message--me {
+    background-color: #d9fdd3;
+    align-self: flex-end;
+}
+
+.message--them {
+    background-color: #ffffff;
+    align-self: flex-start;
+}
+
+.message__text {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.message__time {
+    font-size: 11px;
+    color: #667781;
+    float: right;
+    margin-left: 10px;
+    margin-top: 2px;
+}
