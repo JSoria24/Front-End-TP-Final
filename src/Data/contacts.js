@@ -8,7 +8,7 @@ export const contacts = [
         id: 1,
         name: "Homelander",
         avatar: HomelanderImg,
-        lastMessage: "",
+        lastMessage: "soy amigo de Mati",
         lastMessageTime: "10:30 AM",
         responses: [
         { trigger: "hola", response: "¡Hola, necesitas algo?" },
