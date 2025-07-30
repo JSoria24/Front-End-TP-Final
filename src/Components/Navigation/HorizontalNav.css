@@ -17,6 +17,8 @@
 
 .nav-tab:hover {
     background-color: #1d1f1f;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px #00a884
 }
 
 .nav-tab.active {

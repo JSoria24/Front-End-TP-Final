@@ -8,18 +8,33 @@ const ChatsPage = () => {
     return (
         <div className="chats-page">
             <Sidebar />
-            <Routes>
-                <Route index element={
-
-                    <div>
-                                            <div className="chat chat--empty">
-                        <h2>Descarga WhatsApp para Windows</h2>
-                        <p>Descarga la aplicacion para Windows y haz llamadas, comparte pantalla y disfruta de una experiencia más rápida.</p>
-                    </div>
-                    </div>
-                } />
-                <Route path="contact/:contactId" element={<Chat />} />
-            </Routes>
+            <div className="main-content-area">
+                <Routes>
+                    <Route index element={
+                        <div className="welcome-screen">
+                            <div className="welcome-content">
+                                <img 
+                                    src="/images/laptopwhatsapp.png" 
+                                    alt="WhatsApp" 
+                                    className="welcome-logo"
+                                />
+                                <h2>Descarga WhatsApp para Windows</h2>
+                                <p className="welcome-text">
+                                    Descarga la aplicación para Windows y haz llamadas, comparte pantalla y 
+                                    disfruta de una experiencia más rápida.
+                                </p>
+                                <button className="download-btn">
+                                    Descargar
+                                </button>
+                                <div className="encryption-notice">
+                                    <span>Tus mensajes personales están cifrados de extremo a extremo</span>
+                                </div>
+                            </div>
+                        </div>
+                    } />
+                    <Route path="contact/:contactId" element={<Chat />} />
+                </Routes>
+            </div>
         </div>
     );
 };

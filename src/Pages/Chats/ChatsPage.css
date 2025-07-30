@@ -3,6 +3,87 @@
     flex: 1;
     height: 100%;
     background-color: #161717;
-    color: black;
+    color: grey;
 
+}
+.chats-page {
+    display: flex;
+    height: 100vh;
+    background-color: #161717;
+}
+
+.main-content-area {
+    flex: 1;
+    display: flex;
+    border-left: 1px solid #374045;
+}
+
+.welcome-screen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161717;
+    background-repeat: repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.welcome-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome-logo {
+    width: 320px;
+    height: 188px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.welcome-content h2 {
+    color: #e9edef;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.welcome-text {
+    color: #8696a0;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.download-btn {
+    background-color: #00a884;
+    color: #111b21;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.download-btn:hover {
+    background-color: #008069;
+}
+
+.encryption-notice {
+    margin-top: 100px;
+    color: #8696a0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.encryption-notice::before {
+    content: "🔒";
+    font-size: 16px;
 }

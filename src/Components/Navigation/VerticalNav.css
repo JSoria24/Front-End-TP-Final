@@ -20,6 +20,7 @@
 .nav-icon:hover {
     background-color: #374045;
     color: #d1d7db;
+    box-shadow: 0 2px 8px #00a884
 }
 
 .nav-icon.active {
