@@ -1,14 +1,19 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import './Chat.css';
 import Message from '../Message/Message';
+import { contacts } from '../../Data/contacts';
 
-const Chat = ({ activeChat }) => {
+const Chat = () => {
+    const { contactId } = useParams();
     const [messages, setMessages] = useState([]);
     const [inputMessage, setInputMessage] = useState('');
+console.log('Contact ID from URL:', contactId);
+    // Encuentra el contacto actual basado en el ID de la URL
+    const activeChat = contacts.find(c => c.id === parseInt(contactId));
 
     useEffect(() => {
         if (activeChat) {
-            // Mensaje inicial cuando se selecciona un chat
             setMessages([{
                 id: 1,
                 text: activeChat.lastMessage,
@@ -22,7 +27,6 @@ const Chat = ({ activeChat }) => {
         e.preventDefault();
         if (!inputMessage.trim() || !activeChat) return;
 
-        // Agregar mensaje del usuario
         const newUserMessage = {
             id: messages.length + 1,
             text: inputMessage,
@@ -33,7 +37,6 @@ const Chat = ({ activeChat }) => {
         setMessages([...messages, newUserMessage]);
         setInputMessage('');
 
-        // Respuesta automática después de 1 segundo
         setTimeout(() => {
             const response = getAutoResponse(inputMessage, activeChat);
             if (response) {
@@ -61,7 +64,7 @@ const Chat = ({ activeChat }) => {
     if (!activeChat) {
         return (
             <div className="chat chat--empty">
-                <h2>Selecciona un chat para comenzar</h2>
+                <h2>Sleccione un Chat para comenzar</h2>
             </div>
         );
     }

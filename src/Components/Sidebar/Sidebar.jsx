@@ -1,13 +1,15 @@
 import React from 'react';
-import './Sidebar.css';
-import ChatList from '../ChatList/ChatList';
 import Search from '../Search/Search';
+import HorizontalNav from '../Navigation/HorizontalNav';
+import ChatList from '../ChatList/ChatList';
+import './Sidebar.css';
 
-const Sidebar = ({ setActiveChat }) => {
+const Sidebar = () => {
     return (
         <div className="sidebar">
             <Search />
-            <ChatList setActiveChat={setActiveChat} />
+            <HorizontalNav />
+            <ChatList />
         </div>
     );
 };

@@ -1,0 +1,24 @@
+.horizontal-nav {
+    display: flex;
+    background-color: #111b21;
+    border-bottom: 1px solid #374045;
+}
+
+.nav-tab {
+    flex: 1;
+    text-align: center;
+    padding: 15px 0;
+    color: #aebac1;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.nav-tab:hover {
+    background-color: #1d1f1f;
+}
+
+.nav-tab.active {
+    color: #00a884;
+    border-bottom: 2px solid #00a884;
+}

@@ -6,13 +6,13 @@
 .chatListItem {
     display: flex;
     padding: 12px;
-    border-bottom: 1px solid #e9edef;
+    border-bottom: 1px solid black; /*bordes entre chat y chat*/
     cursor: pointer;
     align-items: center;
 }
 
 .chatListItem:hover {
-    background-color: #f5f6f6;
+    background-color: #2d2e2e; /* cuando pasas el mouse por encima */
 }
 
 .chatListAvatar {
@@ -27,9 +27,11 @@
 }
 
 .chatListDetails h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     margin-bottom: 5px;
-    color: #111b21;
+    color: #FAFAFA;
+    font-weight:500;
 }
 
 .chatListDetails p {

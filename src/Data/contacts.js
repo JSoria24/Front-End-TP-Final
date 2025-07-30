@@ -8,7 +8,7 @@ export const contacts = [
         id: 1,
         name: "Homelander",
         avatar: HomelanderImg,
-        lastMessage: "soy amigo de Mati",
+        lastMessage: "NO soy amigo de Mati",
         lastMessageTime: "10:30 AM",
         responses: [
         { trigger: "hola", response: "¡Hola, necesitas algo?" },
@@ -26,7 +26,7 @@ export const contacts = [
         id: 2,
         name: "Starlight",
         avatar: StarlightImg,
-        lastMessage: "",
+        lastMessage: "⊘ Se eliminó este mensaje.",
         lastMessageTime: "9:15 AM",
         responses: [
         { trigger: "hola", response: "¡Hola! ¿Qué tal? 😊 ¿Viste mi mensaje del cine?" },

@@ -1,16 +1,17 @@
 .chat {
     flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #e5ddd5;
-    background-image: url('https://web.whatsapp.com/img/bg-chat-tile-light_a4be512e7195b6b733d9110b408f075d.png');
+    background-color: #161717;
+    background-image: url('https://i.postimg.cc/tJmMYL9H/Whatsapp-Chat-Background.jpg'); /*fondo del chat*/
     position: relative;
 }
 
 .chat--empty {
     justify-content: center;
     align-items: center;
-    background: #f0f2f5;
+    background: #161717;
 }
 
 .chat--empty h2 {
@@ -78,5 +79,5 @@
 }
 
 .chat__footer button:hover {
-    background-color: #008069;
+    background-color: red;
 }
