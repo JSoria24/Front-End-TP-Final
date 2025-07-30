@@ -73,7 +73,7 @@
 
 .chat__footer button {
     padding: 10px 15px;
-    background-color: #00a884;
+    background-color: #21bf63;
     color: white;
     border: none;
     border-radius: 8px;
@@ -81,5 +81,5 @@
 }
 
 .chat__footer button:hover {
-    background-color: red;
+    background-color: rgb(2, 82, 2);
 }

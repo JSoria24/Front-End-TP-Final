@@ -7,7 +7,7 @@
 .app {
     display: flex;
     height: 100vh;
-    background-color: #0b141a;
+    background-color: #161717; /*color de ondo de la derecha*/
 }
 
 .app__body {

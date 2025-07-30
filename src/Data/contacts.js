@@ -60,7 +60,7 @@ export const contacts = [
         lastMessage: "",
         lastMessageTime: "10:30 AM",
         responses: [
-        {"trigger": "hola", response: "¡Hola, necesitas algo?"},
+        {"trigger": "hola", response: "¡Hola, en que puedo ayudarte amigo?"},
         {"trigger": "como estas?", response: "Mejor que nunca, hermano. ¿Viste mi último récord de velocidad?"},
         {"trigger": "qué tal en los 7", response: "Pff, esos farsantes. Yo soy el único real ahí. Pero el sueldo compensa."},
         {"trigger": "compound v", response: "*Mira alrededor* Eso es cosa del pasado... no deberías preguntar de eso."},
@@ -79,7 +79,7 @@ export const contacts = [
     lastMessage: "",
     lastMessageTime: "10:30 AM",
     responses: [
-        { trigger: "hola", response: "¡Hola, necesitas algo?" },
+        { trigger: "hola", response: "Ey hola! ¿Como estas?" },
         { trigger: "como estas?", response: "Honestamente... un poco nervioso como siempre. Esto de trabajar con The Boys no es exactamente relajante, ¿sabes?" },
         { trigger: "que opinas de los supers?", response: "Después de lo que hicieron con mi novia... creo que algunos necesitan supervisión. Pero no todos son malos, ¿verdad?" },
         { trigger: "te arrepientes de unirte a los boys?", response: "A veces, cuando casi me matan. Pero alguien tiene que enfrentarlos... aunque sea con las manos temblando." },
