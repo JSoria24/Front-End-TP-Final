@@ -1,6 +1,7 @@
 .horizontal-nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    background-color: #111b21;
+    background-color: #161717;
     border-bottom: 1px solid #374045;
 }
 

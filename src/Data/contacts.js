@@ -34,7 +34,7 @@ export const contacts = [
         { trigger: "adiós", response: "¡Nos vemos! Ojalá elijas buena película. 🎬" },
         { trigger: "vought", response: "Prefiero no hablar de ellos... Son pura fachada." },
         { trigger: "los siete", response: "Extraño a Maeve, pero al resto... mejor no." },
-        { trigger: "pelicula", response: "¡Sí! Pero nada de superheroes, ¿vale? 😅" },
+        { trigger: "pelicula", response: "¡Sí! Pero nada de superheroes, dale? 😅" },
         { trigger: "poderes", response: "Son un regalo, pero también una carga. ¿Tú qué harías con ellos?" },
         { trigger: "solitario", response: "Es duro, pero es mejor que fingir lealtad a corruptos." }
     ]

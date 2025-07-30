@@ -1,14 +1,14 @@
 .search {
     padding: 10px;
-    background-color: #f0f2f5;
-    border-bottom: 1px solid #e9edef;
+    background-color: #161717;
+    border-bottom: 1px solid grey;
 }
 
 .search input {
-    width: 100%;
+    width: 90%;
     padding: 10px 15px;
     border: none;
-    border-radius: 8px;
+    border-radius: 20px;
     outline: none;
-    background-color: #ffffff;
+    background-color: #2d2e2e;
 }

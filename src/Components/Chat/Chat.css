@@ -21,8 +21,8 @@
 
 .chat__header {
     padding: 10px 16px;
-    background-color: #f0f2f5;
-    border-bottom: 1px solid #e9edef;
+    background-color: #161717;
+    border-bottom: 0px solid #e9edef;
     display: flex;
     align-items: center;
 }
@@ -40,7 +40,8 @@
 
 .chat__headerInfo h3 {
     font-size: 16px;
-    color: #111b21;
+    color: #FAFAFA; /*color del nombre*/
+    font-weight: 500;
 }
 
 .chat__body {
@@ -53,7 +54,7 @@
 
 .chat__footer {
     padding: 8px 16px;
-    background-color: #f0f2f5;
+    background-color: #161717;
 }
 
 .chat__footer form {
@@ -64,9 +65,10 @@
     flex: 1;
     padding: 10px 15px;
     border: none;
-    border-radius: 8px;
+    border-radius: 20px;
     margin-right: 10px;
     outline: none;
+    background-color: #2d2e2e;
 }
 
 .chat__footer button {
