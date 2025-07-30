@@ -9,7 +9,6 @@ const Chat = () => {
     const [messages, setMessages] = useState([]);
     const [inputMessage, setInputMessage] = useState('');
 console.log('Contact ID from URL:', contactId);
-    // Encuentra el contacto actual basado en el ID de la URL
     const activeChat = contacts.find(c => c.id === parseInt(contactId));
 
     useEffect(() => {

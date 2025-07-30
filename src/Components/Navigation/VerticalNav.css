@@ -31,3 +31,14 @@
     margin-top: auto;
     margin-bottom: 20px;
 }
+
+.profile-image {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav-icon.profile-icon {
+    padding: 8px;
+}

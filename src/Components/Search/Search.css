@@ -5,10 +5,12 @@
 }
 
 .search input {
-    width: 90%;
+    width: 100%;
     padding: 10px 15px;
     border: none;
     border-radius: 20px;
     outline: none;
     background-color: #2d2e2e;
+    color: #FAFAFA;
+    font-weight: 400;
 }

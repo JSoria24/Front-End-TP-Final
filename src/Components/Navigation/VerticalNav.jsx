@@ -25,7 +25,11 @@ const VerticalNav = () => {
                 <FaCog />
             </NavLink>
             <NavLink to="/profile" className="nav-icon profile-icon" activeClassName="active">
-                <FaUser />
+                <img
+                    src="/images/Superman.jpg"
+                    alt="Perfil"
+                    className="profile-image"
+                />
             </NavLink>
         </div>
     );
