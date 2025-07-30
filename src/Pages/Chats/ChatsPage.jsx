@@ -10,8 +10,12 @@ const ChatsPage = () => {
             <Sidebar />
             <Routes>
                 <Route index element={
-                    <div className="chat chat--empty">
-                        <h2>Selecciona un chat para comenzar</h2>
+
+                    <div>
+                                            <div className="chat chat--empty">
+                        <h2>Descarga WhatsApp para Windows</h2>
+                        <p>Descarga la aplicacion para Windows y haz llamadas, comparte pantalla y disfruta de una experiencia más rápida.</p>
+                    </div>
                     </div>
                 } />
                 <Route path="contact/:contactId" element={<Chat />} />

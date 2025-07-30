@@ -13,7 +13,6 @@ const ChatList = () => {
                     key={contact.id}
                     className="chatListItem"
                     onClick={() => navigate(`/chats/contact/${contact.id}`, { replace: true })}
-                // Agregamos { replace: true } y la ruta absoluta
                 >
                     <img src={contact.avatar} alt={contact.name} className="chatListAvatar" />
                     <div className="chatListDetails">

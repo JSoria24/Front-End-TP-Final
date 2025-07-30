@@ -64,7 +64,7 @@ console.log('Contact ID from URL:', contactId);
     if (!activeChat) {
         return (
             <div className="chat chat--empty">
-                <h2>Sleccione un Chat para comenzar</h2>
+                <h2>Seleccione un Chat para comenzar</h2>
             </div>
         );
     }
