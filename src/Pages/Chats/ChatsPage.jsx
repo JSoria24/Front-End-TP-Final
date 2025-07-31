@@ -7,6 +7,7 @@ import './ChatsPage.css';
 
 const ChatsPage = () => {
     return (
+        
         <div className="chats-page">
             <Sidebar />
             <div className="main-content-area">

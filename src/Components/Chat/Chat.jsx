@@ -4,6 +4,7 @@ import './Chat.css';
 import Message from '../Message/Message';
 import { contacts } from '../../Data/contacts';
 
+
 const Chat = () => {
     const { contactId } = useParams();
     const [messages, setMessages] = useState([]);
