@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Sidebar from '../../Components/Sidebar/Sidebar';
 import Chat from '../../Components/Chat/Chat';
+import { IoLockClosedSharp } from "react-icons/io5";
 import './ChatsPage.css';
 
 const ChatsPage = () => {
@@ -27,6 +28,7 @@ const ChatsPage = () => {
                                     Descargar
                                 </button>
                                 <div className="encryption-notice">
+                                    <IoLockClosedSharp />
                                     <span>Tus mensajes personales están cifrados de extremo a extremo</span>
                                 </div>
                             </div>

@@ -1,0 +1,127 @@
+.status-page {
+    background-color: #161717;
+    min-height: 100vh;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styles */
+.status-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #161717;
+    color: #FAFAFA;
+
+
+}
+
+.status-header h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.header-icons .icon {
+    font-size: 18px;
+    color: #65676B;
+    cursor: pointer;
+}
+
+/* My status section */
+.my-status {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #161717;
+    color: #FAFAFA;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.profile-image-container {
+    position: relative;
+    margin-right: 15px;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #00a884;
+    background-color: #242626
+}
+
+.add-status-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #00a884;
+    font-size: 20px;
+}
+
+.status-info h2 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 3px;
+}
+
+.status-info span {
+    font-size: 14px;
+    color: #FFFFFF99
+}
+
+/* Recent statuses */
+.recent-statuses {
+    background-color: #161717;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.recent-statuses h3 {
+    font-size: 14px;
+    color: #FAFAFA;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.status-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.status-item strong {
+    font-size: 15px;
+    color: #FAFAFA;
+    font-weight: 400
+}
+
+.status-item span {
+    font-size: 13px;
+    color: #FFFFFF99
+}
+
+.status-notice {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #65676B;
+}
+
+.status-notice input {
+    margin-right: 8px;
+}
