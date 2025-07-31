@@ -13,7 +13,7 @@ const ProfilePage = () => {
                 <div className="profile-photo-wrapper">
                     <div className="profile-photo-container">
                         <img 
-                            src="/images/superman.jpg" 
+                            src="/images/Superman.jpg" 
                             alt="Foto de perfil" 
                             className="profile-photo"
                         />
