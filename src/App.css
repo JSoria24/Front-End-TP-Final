@@ -7,13 +7,14 @@
 .app {
     display: flex;
     height: 100vh;
-    background-color: #161717; /*color de ondo de la derecha*/
+    background-color: #161717;
 }
 
-.app__body {
-    display: flex;
+.main-content-container {
     flex: 1;
-    height: 100vh;
+    display: flex;
+    min-width: 0;
+    /* Previene desbordamiento */
 }
 
 /* Ajustes para el ancho de contactos y chat */
@@ -31,10 +32,29 @@
     background-color: #161717;
 }
 
-/* Estilos para el contenido de las páginas */
-.page-content {
+.page-container {
     flex: 1;
-    padding: 20px;
-    color: white;
-    background-color: #0b141a;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #161717;
+    border-left: 1px solid #374045;
+}
+
+/* Asegura que todas las páginas tengan el mismo ancho */
+.page-container {
+    width: 70%;
+    /* O el ancho que prefieras */
+    max-width: 500px;
+    /* Ajusta según necesidad */
+    min-width: 500px;
+    /* Ancho mínimo */
+}
+
+/* Para dispositivos móviles */
+@media (max-width: 768px) {
+    .page-container {
+        width: 100%;
+        min-width: 100%;
+    }
 }

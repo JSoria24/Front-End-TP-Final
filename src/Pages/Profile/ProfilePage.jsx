@@ -4,7 +4,7 @@ import './ProfilePage.css';
 
 const ProfilePage = () => {
     return (
-        <div className="profile-page">
+        <div className="page-container">
             <div className="profile-header">
                 <h2>Perfil</h2>
             </div>

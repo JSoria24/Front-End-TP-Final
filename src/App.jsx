@@ -14,7 +14,7 @@ function App() {
         <Router>
             <div className="app">
                 <VerticalNav />
-                <div className="app__body">
+                <div className="main-content-container">
                     <Routes>
                         <Route path="/" element={<Navigate to="/chats" replace />} />
                         <Route path="/chats/*" element={<ChatsPage />} />

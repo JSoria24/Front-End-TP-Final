@@ -11,7 +11,7 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className="whatsapp-header">
-                <span className="whatsapp-title">The Boy's</span>
+                <span className="whatsapp-title">Chats con The Boy's</span>
                 
                 <div className="header-icons">
                     <button className="header-btn">
