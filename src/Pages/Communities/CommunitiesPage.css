@@ -1,0 +1,116 @@
+.communities-page {
+    background-color: #161717;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styles */
+.communities-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #161717;
+    color: #FAFAFA;
+}
+
+.communities-header h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.add-icon {
+    font-size: 18px;
+    color: #65676B;
+    cursor: pointer;
+}
+
+/* Main content styles */
+.communities-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #161717;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.communities-icon-container {
+    margin-bottom: 20px;
+}
+
+.communities-icon {
+    font-size: 60px;
+    color: #21bf63;
+}
+
+.communities-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #FAFAFA;
+}
+
+.communities-description {
+    font-size: 14px;
+    color: #fafafa;
+    margin-bottom: 20px;
+    max-width: 300px;
+    line-height: 1.4;
+}
+
+.examples-link {
+    color: #21bf63;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.examples-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer button styles */
+.communities-footer {
+    padding: 15px;
+    background-color: #161717;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+}
+.create-community-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #21bf63;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.create-community-btn {
+    padding: 10px 20px; /* Ajusta el padding para controlar el tamaño */
+    background-color: #21bf63;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    width: auto; /* Ancho automático según el contenido */
+    min-width: 200px; /* Ancho mínimo opcional */
+    transition: background-color 0.3s ease; /* Efecto hover suave */
+}
+
+.create-community-btn:hover {
+    background-color: #188f4a;
+}
