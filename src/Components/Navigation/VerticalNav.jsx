@@ -5,7 +5,6 @@ import {
     FaComments,
     FaUsers,
     FaCog,
-    FaUser
 } from 'react-icons/fa';
 import './VerticalNav.css';
 
