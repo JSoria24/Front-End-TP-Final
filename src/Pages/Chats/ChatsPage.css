@@ -22,6 +22,7 @@
     background-repeat: repeat;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .welcome-content {
     display: flex;
     flex-direction: column;
@@ -30,24 +31,28 @@
     text-align: center;
     padding: 20px;
 }
+
 .welcome-content h2 {
     color: #e9edef;
     font-size: 36px;
     font-weight: 300;
     margin-bottom: 15px;
 }
+
 .welcome-text {
     color: #8696a0;
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 25px;
 }
+
 .welcome-logo {
     width: 320px;
     height: 188px;
     margin-bottom: 30px;
     opacity: 0.8;
 }
+
 .download-btn {
     background-color: #00a884;
     color: #111b21;
@@ -59,9 +64,11 @@
     cursor: pointer;
     transition: background-color 0.2s;
 }
+
 .download-btn:hover {
     background-color: #008069;
 }
+
 .encryption-notice {
     margin-top: 100px;
     color: #8696a0;
@@ -70,9 +77,11 @@
     align-items: center;
     gap: 5px;
 }
+
 .encryption-notice::before {
     font-size: 16px;
 }
+
 /* Mobile Menu Button 
 .mobile-menu-button {
     display: none;
@@ -140,6 +149,11 @@
     border: none;
     color: white;
     font-size: 24px;
+}
+
+.nav-menu-button.right {
+    left: auto;
+    right: 15px;
 }
 
 

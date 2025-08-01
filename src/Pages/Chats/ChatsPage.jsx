@@ -30,7 +30,7 @@ const ChatsPage = () => {
             {/* Botón de menú (solo móvil y cuando no hay chat abierto) */}
             {isMobile && !isChatOpen && (
                 <button
-                    className="nav-menu-button"
+                    className="nav-menu-button right"
                     onClick={() => setShowVerticalNav(true)}
                 >
                     <FiMenu />
