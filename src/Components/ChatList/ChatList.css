@@ -1,6 +1,7 @@
 .chatList {
     flex: 1;
     overflow-y: auto;
+    height: calc(100vh - 120px); /* Ajusta según tu header/footer */
 }
 
 .chatListItem {
@@ -46,4 +47,8 @@
 .chatListTime {
     font-size: 12px;
     color: #667781;
+}
+
+.chat-list-container {
+    width: 100%;
 }
